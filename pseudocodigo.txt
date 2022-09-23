@@ -1,0 +1,14 @@
+array matriz que toman aeiou, reemplazando estas vocales por el encode, un for loop que chequee y reemplace el contenido.
+
+`La letra "a" es convertida para "ai"`
+`La letra "e" es convertida para "enter"`
+`La letra "i" es convertida para "imes"`
+`La letra "o" es convertida para "ober"`
+`La letra "u" es convertida para "ufat"`
+
+boton de copiado agarra el texto dentro del campo
+
+botones que agarran la funcion del encriptar y la ejecutan agarrando lo que este en el campo de texto.
+
+
+ 

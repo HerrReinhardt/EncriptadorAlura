@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <header>
+        <h1>Encripta tu texto</h1>
+    </header>
+
+    <main class="contenedor">  
+    
+        <div class="contenedor-campos">
+            <textarea class="encriptar-area" placeholder="Ingrese su texto sin mayusculas ni acentos"></textarea>
+    
+            <div class="contenedor-botones ">
+                <button class="boton-encriptar" onclick="botonDeEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDeDesencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        
+        <div class="contenedor-encriptado"> 
+            <textarea class="desencriptar-area" placeholder="Tu texto encriptado"></textarea>
+
+            <button class="boton-copiar" onclick="botonDeCopiar()"> Copiar</button>
+        </div>
+    </main>
+
+    <footer>Hecho por <a href="https://www.linkedin.com/in/nicolas-roberto-malta-b3b50b217/"> Nicolas Roberto Malta</a></footer>
+
+    <script src="javascript/app.js"></script>
+</body>
+</html>
